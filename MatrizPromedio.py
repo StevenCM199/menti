@@ -12,7 +12,7 @@ def matriz_aux(matriz, num_filas, num_columnas, fila, columna, resultado):
 
 def promedio(suma, num_filas, resultado):
     if suma == 0:
-        return resultado
+        return suma, resultado
     else:
-        return resultado + suma / num_filas
+        return suma, resultado + suma / num_filas
     
